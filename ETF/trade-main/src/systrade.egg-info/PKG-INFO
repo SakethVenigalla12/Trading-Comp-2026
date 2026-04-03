@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: systrade
+Version: 1.0.2
+Requires-Python: >=3.12
+Requires-Dist: numpy<3,>=2
+Requires-Dist: pandas<3,>=2
+Requires-Dist: requests>=2.32.3
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: alpaca-py>=0.11.0
+Requires-Dist: pytz>=2024.1
+Requires-Dist: attrs>=23.2.0
+Provides-Extra: test
+Requires-Dist: pytest~=8.4.2; extra == "test"
+Requires-Dist: pytest-cov~=7.0.0; extra == "test"
