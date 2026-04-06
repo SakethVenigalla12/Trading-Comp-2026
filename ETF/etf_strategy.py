@@ -190,4 +190,4 @@ class StatArbStrategy(Strategy):
 
 
           
-            f.write(json.dumps(record) + "\n") mmmm
+
